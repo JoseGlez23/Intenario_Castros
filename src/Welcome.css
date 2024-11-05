@@ -1,0 +1,70 @@
+/* Pagina de Bienvenida*/
+
+@font-face {
+    font-family: 'TT Commons Pro Expanded';
+    src: url('./assets/fonts/tt_commons_pro_regular.otf')format('otf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Commons Pro Expanded';
+    src: url('./assets/fonts/tt_commons_pro_expanded_bold.otf')format('otf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'TT Commons Pro Expanded', sans-serif;
+}
+
+
+.welcome-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./assets/img/FondoMetalico.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1c1c1c;
+}
+
+.square-container {
+    display: flex;
+    border-radius: 19px;
+    border: 4px solid #f63535;
+    overflow: hidden;
+    width: 950px;
+    height: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.text-section {
+    background-color: #a7a2a3;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    z-index: 0;
+}
+
+.MaterialIcon {
+    height: auto;
+    width: 85px;
+    margin-bottom: 12px;
+  }
+
